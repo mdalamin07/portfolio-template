@@ -1,0 +1,320 @@
+body{
+    color: #ffffff;
+    background-color: #000000;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.button_1{
+    font-size: small;
+    padding: 10px 20px;
+    color: #ffffff;
+    transition: 0.5s;
+    background-color: #FF4900;
+}
+.button_1:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+}
+.button_2{
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: small;
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+}
+.button_2:hover{
+    color: #ffffff;
+    border: none;
+    background-color: #FF4900;
+}
+.arrow_2{
+    color: #FF4900;
+    text-align: center;
+}
+/* Header Start */
+.logo_img{
+    width: 191px;
+    height: 80px;
+}
+.navbar_icon{
+    color: #FF4900;
+    font-size: 30px;
+}
+.my_navbar ul li{
+    transition: 0.4s;
+}
+.my_navbar ul li:last-child{
+    padding: 0 5px;
+    background-color: #FF4900;
+    border-radius: 5px;
+}
+.my_navbar ul li:hover{
+    font-size: 14px;
+    transform: scale(1.2);
+    border-radius: 5px;
+    background-color: #FF4900;
+    
+}
+.my_navbar ul li a{
+    font-size: 14px;
+    font-weight: normal;
+    transition: 0.4s;
+}
+/* Header Ends */
+
+/* Hero Area Start*/
+#hero_area{
+
+}
+.inner_hero h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.inner_hero h5{
+    width: 100px;
+    height: auto;
+    font-size: smaller;
+    font-weight: lighter;
+    text-align: center;
+    padding: 8px 8px;
+    background-color: #FF4900;
+}
+.inner_hero span{
+    border-top: 12px solid #FF4900;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    margin-left: 51px;
+}
+.hero_img1{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.hero_img2{
+    width: 32%;
+    height: auto;
+    position: absolute;
+    top: 160px;
+    right: 180px;
+}
+.arrow_key{
+    width: 39px;
+    height: 70px;
+    margin: 0 auto;
+    transition: 0.5s;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 18px 0px 0px 0px;
+    border: 2px solid #FF4900;
+}
+.arrow_key a{
+    width: 50px;
+    height: auto;
+}
+.arrow_key a i{
+    color: #FF4900;
+    font-size: 30px;
+}
+.arrow_key:hover{
+    border: 2px solid #ffffff;
+}
+/* Hero Area Ends */
+
+/* Progressbar Start */
+.progressbar_img h5{
+    width: 125px;
+    height: 105px;
+    padding: 10px;
+    position: absolute;
+    top: 1020px;
+    left: 70px;
+    border: 0.5px solid rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+}
+.skill_img1{
+    height: 430px;
+    opacity: 0.5;
+    position: relative;
+}
+/* Progressbar Ends */
+
+/* Service Area Start */
+.inner_service{
+    width: 295px;
+    height: auto;
+    padding: 20px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: #111111;
+}
+.inner_service:hover{
+    transform:scaleX(1.1);
+    background-color: #FF4900;
+}
+.inner_service:hover i{
+    color: #ffffff;
+}
+.inner_service label{
+    margin-top: 13px;
+}
+.inner_service i:first-child{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #000000;
+}
+.inner_service:hover i:first-child{
+    color: #000000;
+    background-color: #ffffff;
+}
+.inner_service i:last-child{
+    color: #FF4900;
+    margin-top: 10px;
+}
+.inner_service:hover i:last-child{
+    color: #ffffff;
+} 
+.service_btn{
+    text-align: center;
+}
+.inner_service_bottom{
+    background-image: url(img/code.jpg);
+    background-size: cover;
+}
+.inner_service_bottom .row{
+    padding: 70px 0;
+    background-color: #000000e0;
+}
+.experience{
+    width: 210px;
+    height: auto;
+    padding: 35px 0;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px dashed #707070;
+    background-color: #111111;
+}
+.experience:last-child{
+    margin-right: 0;
+}
+.experience:hover{
+    border: none;
+    background-color: #FF4900;
+}
+/* Service Area Ends */
+
+/* Porfolio Start */
+.portfolio_navbar {
+    margin: 0 auto;
+}
+.portfolio_navbar ul li a{
+    transition: 0.5s;
+    color: #ffffff !important;
+}
+.portfolio_navbar ul li a:hover{
+    color: #FF4900 !important;
+    border-bottom: 2px solid #FF4900;
+}
+.content{
+    overflow: hidden;
+    position: relative;
+}
+.img_overly{
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #ff4900d9;
+    padding: 47px 37px 46px 30px;;
+}
+.img_overly:hover{
+    opacity: 1;
+}
+.portfolio_btn{
+    text-align: center;
+}
+/* Porfolio Ends */
+
+/* Testimonials Area Start */
+.testimonials_img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.carousel-item{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    background-color: #111111;
+}
+.carousel-item h5{
+    color: #FF4900;
+}
+.carousel-indicators li{
+    background-color: #FF4900 !important;
+}
+.freelancing_area{
+    text-align: center;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/code.jpg);
+}
+.inner_freelancing{
+    padding: 70px 0px;
+    text-align: center;
+    background-color: #000000b5;
+}
+/* Testimonials Area Ends */
+
+/* Contact Start */
+#contact{
+    margin-top: 95px;
+    background-color: #111111;
+}
+.inner_contact{
+    height: 50px;
+}
+.inner_contact i{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #FF4900;
+}
+.social_icon{
+    padding: 10px 15px;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -23px;
+    background-color: #FF4900;
+}
+.social_icon i{
+    font-size: 25px;
+}
+.my_form{
+    color: #ffffff;
+    padding: 15px 10px;
+    background-color: #000000;
+}
+/* Contact Ends */
+/* Copyright Area Start */
+.copyright_area{
+    background-color: #111111;
+}
+/* Copyright Area Ends */
